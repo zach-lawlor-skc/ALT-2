@@ -1,0 +1,20 @@
+# Area: Using statistics module to analyse data 
+# Date: 18/02/22
+# Author: Zach Lawlor
+# Purpose: Program to analysis Christmas results
+
+import statistics
+results = [52,53,58,70,80,83,85,94]
+#Eng 52%, Fre 53%, Biology 58%, Irish 70%, Maths 80%, Physics 83%, Computer Science 85%, Applied maths 94%
+
+average = statistics.mean(results)
+print(average)
+#the average result of all my exams
+
+median =  statistics.median(results)
+print(median)
+#the middle value of my results
+
+stdev = statistics.stdev(results)
+print(stdev)
+#the standard deviation (how much better/worse my reults were than my average result
