@@ -18,3 +18,8 @@ print(median)
 stdev = statistics.stdev(results)
 print(stdev)
 #the standard deviation (how much better/worse my reults were than my average result
+
+#my average = 72%
+#my median = 75%
+#the standard deviation = 16
+
